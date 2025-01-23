@@ -10,3 +10,5 @@
 - IntelliJ Comunity (*última versión*)
 - Git (*última versión*)
 
+## Reglas 
+- **N/A**
