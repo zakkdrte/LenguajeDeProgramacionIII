@@ -4,7 +4,13 @@ public class Triangulo {
     public static double ladoB;
     public static double ladoC;
 
-    public static double perimetroTriangulo(){
+    Triangulo(double x, double y, double z){
+        ladoA = x;
+        ladoB = y;
+        ladoC = z;
+    }
+
+    public double perimetroTriangulo(){
         return perimetro + ladoA + ladoB + ladoC;
     }
     public static double perimetroTriangulo(double _ladoA, double _ladoB, double _ladoC){
