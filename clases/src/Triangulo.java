@@ -10,7 +10,7 @@ public class Triangulo {
         ladoC = z;
     }
 
-    public double perimetroTriangulo(){
+    public static double perimetroTriangulo(){
         return perimetro + ladoA + ladoB + ladoC;
     }
     public static double perimetroTriangulo(double _ladoA, double _ladoB, double _ladoC){

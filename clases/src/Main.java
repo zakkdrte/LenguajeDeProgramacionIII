@@ -1,17 +1,19 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        double x = 2;
-        double y = 2;
-        double z = 2;
-        Triangulo _triangulo = new Triangulo(x,y,z);
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("\n\n[+] Ingrese el valor para el lado A:  ");
+        Triangulo.ladoA = sc.nextDouble();
+        System.out.print("\n\n[+] Ingrese el valor para el lado B:  ");
+        Triangulo.ladoB = sc.nextDouble();
+        System.out.print("\n\n[+] Ingrese el valor para el lado C:  ");
+        Triangulo.ladoC = sc.nextDouble();
 
-
-        Triangulo.ladoA = 4;
-        Triangulo.ladoB = 4;
-        Triangulo.ladoC = 4;
-        System.out.print(_triangulo.perimetroTriangulo());
+        System.out.print(Triangulo.perimetroTriangulo());
 
     }
+
 }
 
