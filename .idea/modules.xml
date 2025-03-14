@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LenguajeDeProgramacionIV.iml" filepath="$PROJECT_DIR$/.idea/LenguajeDeProgramacionIV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clases/clases.iml" filepath="$PROJECT_DIR$/clases/clases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/condicionales/condicionales.iml" filepath="$PROJECT_DIR$/condicionales/condicionales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/holaMundo/holaMundo.iml" filepath="$PROJECT_DIR$/holaMundo/holaMundo.iml" />
+    </modules>
+  </component>
+</project>
